@@ -1,0 +1,197 @@
+Assignment 4 testing results:
+
+71069-89016 - V00984826 - Arfaz Hossain - Feb 27, 2022 907 AM
+
+Trying to compile your submission... PASSED
+
+Testing printf("%d\n", sum_fib_sequence(13));
+
+Expected:33
+Actual  :33
+Test grade: 0
+*For loops used
+
+Testing printf("%d\n", sum_fib_sequence(35));
+
+Expected:88
+Actual  :88
+Test grade: 0
+*For loops used
+
+Testing printf("%d\n", sum_fib_sequence(54));
+Expected:88
+Actual  :88
+Test grade: 0
+*For loops used
+
+Testing printf("%d\n", digit_product(4673));
+Expected:504
+Actual  :504
+Test grade: 1
+
+Testing printf("%d\n", digit_product(-325));
+Expected:30
+Actual  :30
+Test grade: 1
+
+Testing printf("%d\n", digit_product(909));
+Expected:0
+Actual  :0
+Test grade: 1
+
+Testing // Testing roll_dice_pair(&m, &n) with m=999 and n=888, rolls 2, 6
+
+Expected:Die rolls: 2, 6
+Actual  :Die rolls: 2, 6
+Test grade: 1
+
+Testing // Testing roll_dice_pair(&m, &n) with m=999 and n=888, rolls 3,1
+
+Expected:Die rolls: 3, 1
+Actual  :Die rolls: 3, 1
+Test grade: 1
+
+Testing // Testing roll_dice_pair(&m, &n) with m=999 and n=888, rolls 5,4
+
+Expected:Die rolls: 5, 4
+Actual  :Die rolls: 5, 4
+Test grade: 1
+
+Testing // play_one_round(1) with rolls 2,1
+
+Expected:You guessed 1. Rolling!
+
+Rolled 2 and 1.
+
+You won!
+
+Return value: 1
+Actual  :You guessed 1. Rolling!
+
+Rolled 2 and 1
+
+You won!
+Return value: 1
+Test grade: 1
+
+Testing // play_one_round(4) with rolls 2,1
+
+Expected:You guessed 4. Rolling!
+
+Rolled 2 and 1.
+
+You lost!
+
+Return value: 0
+Actual  :You guessed 4. Rolling!
+
+Rolled 2 and 1
+
+You lost!
+Return value: 0
+Test grade: 1
+
+Testing // play_one_round(1) with rolls 2,2,5,6,1,3
+
+Expected:You guessed 1. Rolling!
+
+Rolled 2 and 2.
+
+You are getting a second chance!
+
+You want one of your dice to be 1. You don't want the total to equal 4 or your second chance is over.
+
+Rolled 5 and 6.
+
+Rolled 1 and 3.
+
+You won!
+
+Return value: 1
+Actual  :You guessed 1. Rolling!
+
+Rolled 2 and 2
+
+You are getting a second chance!
+
+You want one of your dice to be 1. You don't want the total to equal 4 or your second chance is over.
+
+Rolled 5 and 6.
+
+Rolled 1 and 3.
+
+You won!
+Return value: 1
+Test grade: 1
+
+Testing // play_one_round(2) with rolls 2,2,5,6,1,3
+
+Expected:You guessed 2. Rolling!
+
+Rolled 2 and 2.
+
+You won!
+
+Return value: 1
+Actual  :You guessed 2. Rolling!
+
+Rolled 2 and 2
+
+You are getting a second chance!
+
+You want one of your dice to be 2. You don't want the total to equal 4 or your second chance is over.
+
+Rolled 5 and 6.
+
+Rolled 1 and 3.
+
+You lost!
+Return value: 0
+Test grade: 0
+
+Testing // play_one_round(4) with rolls 2,2,5,6,1,3
+
+Expected:You guessed 4. Rolling!
+
+Rolled 2 and 2.
+
+You are getting a second chance!
+
+You want one of your dice to be 4. You don't want the total to equal 4 or your second chance is over.
+
+Rolled 5 and 6.
+
+Rolled 1 and 3.
+
+You lost!
+
+Return value: 0
+Actual  :You guessed 4. Rolling!
+
+Rolled 2 and 2
+
+You are getting a second chance!
+
+You want one of your dice to be 4. You don't want the total to equal 4 or your second chance is over.
+
+Rolled 5 and 6.
+
+Rolled 1 and 3.
+
+You lost!
+Return value: 0
+Test grade: 1
+
+
+--
+Testing get_number(10, 0) with the values -4, 23 and 5
+
+User prompted to enter the numbers: 1/1
+Program asks for another number if entered value too low or high: 1/1
+Program returns value 5 when 5 is entered: 1/1
+
+--
+Code quality: 1
+
+------------
+Total mark: 14 / 18

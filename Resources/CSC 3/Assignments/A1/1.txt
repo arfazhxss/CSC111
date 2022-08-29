@@ -1,0 +1,25 @@
+Assignment 1 testing results:
+
+Testing quote() (square brackets have been added):
+Expected:["I'm not sleeping, I'm inspecting the inside of my eyelids" - Hawkeye Pierce]
+Actual  :["I'm not sleeping, I'm inspecting the inside of my eyelids" - Hawkeye Pierce]
+Part1 grade: 1
+
+Testing framed_quote():
+Expected:
+/*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~******~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\
+|*"I'm not sleeping, I'm inspecting the inside of my eyelids" - Hawkeye Pierce*|
+\*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~******~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*/
+Actual  :
+/*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~******~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\
+|*"I’m not sleeping, I’m inspecting the inside of my eyelids" - Hawkeye Pierce*|
+\*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~******~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*/
+Part2 grade: 1
+
+Testing print_surface_area():
+Expected:The total surface area is 77.47 meters squared
+Actual  :The total surface area is 77.47 meters squared
+Part3 grade: 1
+
+------------
+Total mark: 3

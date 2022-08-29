@@ -1,0 +1,246 @@
+Assignment 5 testing results:
+
+71069-89709 - V00984826 - Arfaz Hossain - Mar 15, 2022 734 PM
+
+Trying to compile your submission... PASSED
+
+Testing Called print_array() with array {14,77,145,26,13,3} (size 6)
+Expected:14,77,145,26,13,3
+Actual  :14,77,145,26,13,3
+Test grade: 1
+
+Testing Called print_array() with array {7} (size 1)
+Expected:7
+Actual  :7
+Test grade: 1
+
+Testing Called print_array() with array {} (size 0)
+Expected:
+Actual  :
+Test grade: 1
+
+Testing Called sum_cubes with array {0,3,6,1} (size 4)
+Expected:244
+Actual  :244
+Test grade: 1
+
+Testing Called sum_cubes with array {2,2,-6,-1,4} (size 5)
+Expected:-137
+Actual  :-137
+Test grade: 1
+
+Testing Called sum_cubes with array {} (size 0)
+Expected:0
+Actual  :0
+Test grade: 1
+
+Testing Called multiply_all with array {1.23, 0.00, 1.001} (size 3) and value 4.5
+Expected:5.535000,0.000000,4.504500
+Actual  :5.535000,0.000000,4.504500
+Test grade: 1
+
+Testing Called multiply_all with array {2.33} (size 1) and value 8.15
+Expected:18.907950
+Actual  :18.907950
+Test grade: 1
+
+Testing Called multiply_all with array {1.23, 4.56, 7.89, 2.46, 1.35, 9.99} (size 6) and value 0.00
+Expected:0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Actual  :0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Test grade: 1
+
+Testing Called sum_below() with input array {2, -5, 23} and value 8.  Checking output array values.
+Expected:-5,2,-111
+Actual  :
+Test grade: 0
+
+Testing Called sum_below() with input array {2, -5, 23} and value 8.  Checking return value.
+Expected:-3
+Actual  :
+Test grade: 0
+
+Testing Called sum_below() with input array {13, -6, 104, 30, 12} and value -50.  Checking output array values.
+Expected:-111,-111,-111,-111,-111
+Actual  :-111,-111,-111,-111,-111
+Test grade: 1
+
+Testing Called sum_below() with input array {13, -6, 104, 30, 12} and value -50.  Checking return value.
+Expected:0
+Actual  :0
+Test grade: 1
+
+Testing Called sum_below() with input array {18,8,18,4,18,6} and value 18.  Checking output array values.
+Expected:6,4,8,-111,-111,-111
+Actual  :
+Test grade: 0
+
+Testing Called sum_below() with input array {18,8,18,4,18,6} and value 18.  Checking return value.
+Expected:18
+Actual  :
+Test grade: 0
+
+Testing Called sum_below() with input array {2,5,9,1} and value 13.  Checking output array values.
+Expected:1,9,5,2
+Actual  :1,9,5,2
+Test grade: 1
+
+Testing Called sum_below() with input array {2,5,9,1} and value 13.  Checking return value.
+Expected:17
+Actual  :17
+Test grade: 1
+
+Testing Called does_contain_multiples() with input array {15,2,8,11,10} and value 3.
+Expected:1
+Actual  :1
+Test grade: 1
+
+Testing Called does_contain_multiples() with input array {6,7,-3,12,19} and value 5.
+Expected:0
+Actual  :0
+Test grade: 1
+
+Testing Called does_contain_multiples() with input array {4,-4,-1,-6} and value 6.
+Expected:1
+Actual  :1
+Test grade: 1
+
+Testing Called count_if_contains_multiples with first array {45, 16, 7} and second array {7, 14, 21}.
+Expected:1
+Actual  :1
+Test grade: 1
+
+Testing Called count_if_contains_multiples with first array {8,16,64,256} and second array {4}.
+Expected:1
+Actual  :1
+Test grade: 1
+
+Testing Called count_if_contains_multiples with first array {17,24,61,33,18} and second array {3,6,5,9}.
+Expected:3
+Actual  :3
+Test grade: 1
+
+Testing Called find_min() with the array:
+
+    {
+
+        {1,7,2},
+
+        {-5, 45, 6},
+
+        {9, 0, 14},
+
+        {18, -4, -1}
+
+    };
+Expected:-5
+Actual  :-5
+Test grade: 1
+
+Testing Called find_min() with the array:
+
+    {   {13, 16, 12, 17, 99},
+
+        {24, 13, 17, 66, 12},
+
+        {17, 19, 23, 59, 67},
+
+        {27, 82, 77, 74, 71},
+
+        {56, 13, 19, 25, 51} };
+Expected:12
+Actual  :12
+Test grade: 1
+
+Testing Called find_min() with the array:
+
+    {   {-1, 5, 7},
+
+        {0, 16, 2} };
+Expected:-1
+Actual  :-1
+Test grade: 1
+
+Testing Called find_min() with the array, checking the values of the array after the call.
+
+      { {16, 17, 18, 27},
+
+        {-2, -12, 44, 15},
+
+        {29, 81, 33, 46}  };
+Expected:16  18  -111    -111
+-2  -12 44  -111
+46  -111    -111    -111
+Actual  :16 -111   18 -111 
+  -2  -12   44 -111 
+-111 -111 -111   46
+Test grade: 0
+
+Testing Called find_min() with the array, checking return value.
+
+      { {16, 17, 18, 27},
+
+        {-2, -12, 44, 15},
+
+        {29, 81, 33, 46}  };
+Expected:6
+Actual  :6
+Test grade: 1
+
+Testing Called find_min() with the array, checking the values of the array after the call.
+
+      { {3, 7, 11},
+
+        {18, 2, 46},
+
+        {9, 27, -111},
+
+        {33, 15, 65} };
+Expected:-111 -111 -111
+18 2 46
+-111 -111 -111
+-111 -111 -111
+Actual  :-111 -111 -111 
+  18    2   46 
+-111 -111 -111 
+-111 -111 -111
+Test grade: 1
+
+Testing Called find_min() with the array, checking return value.
+
+      { {3, 7, 11},
+
+        {18, 2, 46},
+
+        {9, 27, -111},
+
+        {33, 15, 65} };
+Expected:9
+Actual  :9
+Test grade: 1
+
+Testing Called find_min() with the array, checking the values of the array after the call.
+
+    {   {15, 8, 7, 3, -12},
+
+        {22, -33, 11, -6, 28} };
+Expected:8 -12 -111 -111 -111
+22 -6 28 -111 -111
+Actual  :-111    8 -111 -111  -12 
+  22 -111 -111   -6   28
+Test grade: 0
+
+Testing Called find_min() with the array, checking return value.
+
+    {   {15, 8, 7, 3, -12},
+
+        {22, -33, 11, -6, 28} };
+Expected:5
+Actual  :5
+Test grade: 1
+
+
+--
+Code quality: 0.75
+
+------------
+Total mark: 26.75 / 33

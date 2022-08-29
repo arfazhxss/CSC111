@@ -1,0 +1,135 @@
+Assignment 2 testing results:
+
+71069-87012 - V00984826 - Arfaz Hossain - Jan 29, 2022 206 AM
+
+Trying to compile your submission... PASSED
+
+Testing print_qualification_status(10.5, 9.8);
+Expected:You qualified at 0.70 second below the qualifying time
+Actual  :You qualified at 0.70 seconds below the qualifying time
+Test grade: 0.2
+
+Testing print_qualification_status(8.7, 10.1);
+Expected:You missed qualifying by 1.40 seconds
+Actual  :You missed qualifying by 1.40 seconds
+Test grade: 0.2
+
+Testing print_qualification_status(20.9, 20.9);
+Expected:You qualified at 0.00 second below the qualifying time
+Actual  :You missed qualifying by 0.00 seconds
+Test grade: 0
+
+Testing print_qualification_status(0, 25);
+Expected:You missed qualifying by 25.00 seconds
+Actual  :You missed qualifying by 25.00 seconds
+Test grade: 0.2
+
+Testing print_qualification_status(25, 0);
+Expected:You qualified at 25.00 second below the qualifying time
+Actual  :You qualified at 25.00 seconds below the qualifying time
+Test grade: 0.2
+
+Testing print_median(4.5, 8.1, 1.6);
+Expected:4.5000
+Actual  :4.5000
+Test grade: 0.2
+
+Testing print_median(12.2, 13.8, 17.64);
+Expected:13.8000
+Actual  :13.8000
+Test grade: 0.2
+
+Testing print_median(0.0, 2.5, 1.111);
+Expected:1.1110
+Actual  :1.1110
+Test grade: 0.2
+
+Testing print_median(4.5, 2.116, 4.5);
+Expected:4.5000
+Actual  :4.5000
+Test grade: 0.2
+
+Testing print_median(16.77, 16.77, 16.77);
+Expected:16.7700
+Actual  :16.7700
+Test grade: 0.2
+
+Testing print_triangle_type(2.0, 3.0, 4.0);
+Expected:Scalene Triangle
+Actual  :Scalene Triangle
+Test grade: 0.2
+
+Testing print_triangle_type(8.14, 1.65, 8.14);
+Expected:Isosceles Triangle
+Actual  :Isosceles Triangle
+Test grade: 0.2
+
+Testing print_triangle_type(11.1, 11.1, 11.1);
+Expected:Equilateral Triangle
+Actual  :Equilateral Triangle
+Test grade: 0.2
+
+Testing print_triangle_type(3.7, 3.8, 3.8);
+Expected:Isosceles Triangle
+Actual  :Isosceles Triangle
+Test grade: 0.2
+
+Testing print_triangle_type(15.1, 15.9, 15.4);
+Expected:Scalene Triangle
+Actual  :Scalene Triangle
+Test grade: 0.2
+
+Testing is_multiple_of(30, 90);
+Expected:The value of 90 is a multiple of the value of 30
+Actual  :The value of 90 is a multiple of the value of 30
+Test grade: 0.2
+
+Testing is_multiple_of(1, 11);
+Expected:The value of 11 is a multiple of the value of 1
+Actual  :The value of 11 is a multiple of the value of 1
+Test grade: 0.2
+
+Testing is_multiple_of(7, 24);
+Expected:The value of 24 is not a multiple of the value of 7
+Actual  :The value of 24 is not a multiple of the value of 7
+Test grade: 0.2
+
+Testing is_multiple_of(12, 0);
+Expected:The value of 0 is a multiple of the value of 12
+Actual  :The value of 0 is a multiple of the value of 12
+Test grade: 0.2
+
+Testing is_multiple_of(3, 19);
+Expected:The value of 19 is not a multiple of the value of 3
+Actual  :The value of 19 is not a multiple of the value of 3
+Test grade: 0.2
+
+Testing process_breathalyzer_results(0.00, 1);
+Expected:PASS
+Actual  :PASS
+Test grade: 0.3
+
+Testing process_breathalyzer_results(0.095, 0);
+Expected:FAIL penalty: $500, driving suspension: 90 days
+Actual  :FAIL penalty: $500, driving suspension: 90 days
+Test grade: 0.3
+
+Testing process_breathalyzer_results(0.050, 0);
+Expected:WARNING penalty: $200, driving suspension: 3 days
+Actual  :WARNING penalty: $200, driving suspension: 3 days
+Test grade: 0.3
+
+Testing process_breathalyzer_results(0.075, 1);
+Expected:WARNING penalty: $300, driving suspension: 7 days
+Actual  :WARNING penalty: $300, driving suspension: 7 days
+Test grade: 0.3
+
+Testing process_breathalyzer_results(0.079, 2);
+Expected:WARNING penalty: $400, driving suspension: 30 days
+Actual  :WARNING penalty: $400, driving suspension: 30 days
+Test grade: 0.3
+
+Code quality - code is indented and uses comments: 0.5
+
+------------
+Total mark: 5.8 / 6.0

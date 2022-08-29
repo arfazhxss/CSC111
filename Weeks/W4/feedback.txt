@@ -1,0 +1,189 @@
+Assignment 3 testing results:
+
+71069-87966 - V00984826 - Arfaz Hossain - Feb 9, 2022 852 PM
+
+Trying to compile your submission... PASSED
+
+Testing printf("%.4f\n", median(24.1, 16.2, 30.335));
+Expected:24.1000
+Actual  :24.1000
+Test grade: 1
+
+Testing printf("%.4f\n", median(-0.55, -3.116, -18.6));
+Expected:-3.1160
+Actual  :-3.1160
+Test grade: 1
+
+Testing printf("%.4f\n", median(1.776, -5.005, 0));
+Expected:0.0000
+Actual  :0.0000
+Test grade: 1
+
+Testing printf("%.4f\n", median(1.11, 1.1111, 1.11));
+Expected:1.1100
+Actual  :1.1100
+Test grade: 1
+
+Testing printf("%d\n", is_multiple_of(10, 30));
+Expected:1
+Actual  :0
+Test grade: 0
+
+Testing printf("%d\n", is_multiple_of(10, 0));
+Expected:1
+Actual  :0
+Test grade: 0
+
+Testing printf("%d\n", is_multiple_of(18, 4));
+Expected:0
+Actual  :1
+Test grade: 0
+
+Testing printf("%d\n", is_multiple_of(3, 16));
+Expected:0
+Actual  :1
+Test grade: 0
+
+Testing printf("%d\n", permitted_to_register(1.5, 1));
+Expected:1
+Actual  :Error
+22010
+Test grade: 0
+
+Testing printf("%d\n", permitted_to_register(0.8, 0));
+Expected:0
+Actual  :-1
+Test grade: 0
+
+Testing printf("%d\n", permitted_to_register(3.99, 1));
+Expected:1
+Actual  :1
+Test grade: 1
+
+Testing printf("%d\n", permitted_to_register(6.001, 0));
+Expected:1
+Actual  :21926
+Test grade: 0
+
+Testing printf("%d\n", permitted_to_register(12.5, 1));
+Expected:-1
+Actual  :Error
+22086
+Test grade: 0
+
+Testing print_multiples(2, 5);
+Expected:5, 10, 15, 20
+Actual  :5, 10, 15, 20
+Test grade: 1
+
+Testing print_multiples(4, 1);
+Expected:1, 2, 3, 4, 5, 6
+Actual  :1, 2, 3, 4, 5, 6
+Test grade: 1
+
+Testing print_multiples(3, 8);
+Expected:8, 16, 24, 32, 40
+Actual  :8, 16, 24, 32, 40
+Test grade: 1
+
+Testing print_multiples(5, 0);
+Expected:0, 0, 0, 0, 0, 0, 0
+Actual  :0, 0, 0, 0, 0, 0, 0
+Test grade: 1
+
+Testing printf("%d\n", factorial_sum(2));
+Expected:4
+Actual  :test18 couldn't be compiled:
+test18.c: In function ‘main’:
+test18.c:183:20: error: invalid use of void expression
+  183 |     printf("%d\n", factorial_sum(2));
+      |                    ^~~~~~~~~~~~~~~~
+
+Test grade: 0
+
+Testing printf("%d\n", factorial_sum(4));
+Expected:34
+Actual  :test19 couldn't be compiled:
+test19.c: In function ‘main’:
+test19.c:183:20: error: invalid use of void expression
+  183 |     printf("%d\n", factorial_sum(4));
+      |                    ^~~~~~~~~~~~~~~~
+
+Test grade: 0
+
+Testing printf("%d\n", factorial_sum(6));
+Expected:874
+Actual  :test20 couldn't be compiled:
+test20.c: In function ‘main’:
+test20.c:183:20: error: invalid use of void expression
+  183 |     printf("%d\n", factorial_sum(6));
+      |                    ^~~~~~~~~~~~~~~~
+
+Test grade: 0
+
+Testing printf("%d\n", factorial_sum(7)); 
+Expected:5914
+Actual  :test21 couldn't be compiled:
+test21.c: In function ‘main’:
+test21.c:183:20: error: invalid use of void expression
+  183 |     printf("%d\n", factorial_sum(7));
+      |                    ^~~~~~~~~~~~~~~~
+
+Test grade: 0
+
+Testing print_number_triangle(2, 1);
+Expected:0 
+0 1 
+0 1 2
+Actual  :0 
+0 1 
+0 1 2
+Test grade: 1
+
+Testing print_number_triangle(3, 2);
+Expected:0 
+0 1 
+0 1 2 
+0 1 2 3 
+0 
+0 1 
+0 1 2 
+0 1 2 3
+Actual  :0 
+0 1 
+0 1 2 
+0 1 2 3 
+0 
+0 1 
+0 1 2 
+0 1 2 3
+Test grade: 1
+
+Testing print_number_triangle(5, 1);
+Expected:0 
+0 1 
+0 1 2 
+0 1 2 3 
+0 1 2 3 4 
+0 1 2 3 4 5
+Actual  :0 
+0 1 
+0 1 2 
+0 1 2 3 
+0 1 2 3 4 
+0 1 2 3 4 5
+Test grade: 1
+
+Testing print_number_triangle(0, 3);
+Expected:0 
+0 
+0
+Actual  :0 
+0 
+0
+Test grade: 1
+
+Code quality - code is indented and uses comments: 1
+
+------------
+Total mark: 14 / 26

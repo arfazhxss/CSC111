@@ -1,0 +1,181 @@
+Assignment 7 testing results:
+
+71069-91437 - V00984826 - Arfaz Hossain - Apr 10, 2022 1149 PM
+
+Trying to compile your submission... PASSED
+
+Starting with an empty list, called add_front with the value 5.
+Expected:[5]
+Actual  :[5]
+Test grade: 1
+
+Starting with an empty list, called add_front with the value 5, then the value 9.
+Expected:[9, 5]
+Actual  :[9, 5]
+Test grade: 1
+
+Starting with an empty list, called add_front with the values -5, 0, 1 and 8, in that order.
+Expected:[8, 1, 0, -5]
+Actual  :[8, 1, 0, -5]
+Test grade: 1
+
+Created a list: [15].  Called get_last().
+Expected:15
+Actual  :15
+Test grade: 1
+
+Created the list: [8, 1, 0, -5].  Called get_last().
+Expected:-5
+Actual  :-5
+Test grade: 1
+
+Created an empty list: [].  Called get_last().
+Expected:-999
+Actual  :-999
+Test grade: 1
+
+Called remove_front on the list: [6]
+Expected:[]
+Actual  :[]
+Test grade: 1
+
+Called remove_front on the list: [1, 2, 3, 4]
+Expected:[2, 3, 4]
+Actual  :[2, 3, 4]
+Test grade: 1
+
+Called remove_front on the list: [1, 2, 3, 4].  Tested that there were no memory leaks or double-frees.
+Expected:No memory errors
+Actual  :No memory errors
+Test grade: 1
+
+Called remove_front on the list: [8].  Tested that there were no memory leaks or double-frees.
+Expected:No memory errors
+Actual  :No memory errors
+Test grade: 1
+
+Called sum_squares on the list: []
+Expected:-999
+Actual  :0
+Test grade: 0
+
+Called sum_squares on the list: [8, 1, 0, -5], checked the return value.
+Expected:90
+Actual  :90
+Test grade: 1
+
+Called sum_squares on the list: [8, 1, 0, -5].  Checked that the list was not modified.
+Expected:[8, 1, 0, -5]
+Actual  :[8, 1, 0, -5]
+Test grade: 1
+
+Called add_to_all with the value 7 on the list: []
+Expected:[]
+Actual  :[]
+Test grade: 1
+
+Called add_to_all with the value 0 on the list: [1, 4, 9, 16]
+Expected:[1, 4, 9, 16]
+Actual  :[1, 4, 9, 16]
+Test grade: 1
+
+Called add_to_all with the value 11 on the list: [8, 1, 0, -5]
+Expected:[19, 12, 11, 6]
+Actual  :[19, 12, 11, 6]
+Test grade: 1
+
+Called get_all_below with the value 11 on the list: [11, 4, 18, 12, 10].  Checked the output list.
+Expected:[4, 10]
+Actual  :[4, 10]
+Test grade: 1
+
+Called get_all_below with the value 11 on the list: [11, 4, 18, 12, 10].  Checked to make sure the input list wasn't modified.
+Expected:[11, 4, 18, 12, 10]
+Actual  :[11, 4, 18, 12, 10]
+Test grade: 1
+
+Called get_all_below with the value 11 on the list: [11, 4, 18, 12, 10].  Checked the return value.
+Expected:2
+Actual  :2
+Test grade: 1
+
+Called get_all_below with the value 11 on the list: [].  Checked the output list.
+Expected:[]
+Actual  :[]
+Test grade: 1
+
+Called get_all_below with the value 100 on the list: [11, 4, 18, 12, 10].  Checked the output list.
+Expected:[11, 4, 18, 12, 10]
+Actual  :[11, 4, 18, 12, 10]
+Test grade: 1
+
+Called are_all_above with the value 4 on the list: [16, 5, 11, 9]
+Expected:1
+Actual  :1
+Test grade: 1
+
+Called are_all_above with the value 5 on the list: [16, 5, 11, 9]
+Expected:0
+Actual  :1
+Test grade: 0
+
+Called are_all_above with the value 19 on the list: [16, 5, 11, 9]
+Expected:0
+Actual  :0
+Test grade: 1
+
+Called does_contain_multiples_of with the value 17 on the list: [33, 11, 22, 4, 8]
+Expected:0
+Actual  :0
+Test grade: 1
+
+Called does_contain_multiples_of with the value 3 on the list: [33, 11, 22, 4, 8]
+Expected:1
+Actual  :1
+Test grade: 1
+
+Called does_contain_multiples_of with the value 8 on the list: [33, 11, 22, 4, 8]
+Expected:1
+Actual  :1
+Test grade: 1
+
+Called count_if_contains_multiples. The first list is: [], the second list is: []
+Expected:0
+Actual  :0
+Test grade: 1
+
+Called count_if_contains_multiples. The first list is: [14, 18, 2, 11, 77], the second list is: [3, 19]
+Expected:1
+Actual  :1
+Test grade: 1
+
+Called count_if_contains_multiples. The first list is: [7, 13, 19, 23], the second list is: [18, 67, 51, 17]
+Expected:0
+Actual  :0
+Test grade: 1
+
+Called count_if_contains_multiples. The first list is: [64, 32, 16, 8], the second list is: [4, 4, 4, 4]
+Expected:4
+Actual  :4
+Test grade: 1
+
+Called count_if_contains_multiples. The first list is: [], the second list is: [3, 2, 5, 4, 7]
+Expected:0
+Actual  :0
+Test grade: 1
+
+Called count_if_contains_multiples. The first list is: [16, 17, 2, 4, 5], the second list is:  []
+Expected:0
+Actual  :0
+Test grade: 1
+
+
+--
+The remove_first calls free to remove unused memory: 1 / 1
+
+--
+Code is indented and commented: 2 / 2
+
+
+------------
+Total mark: 34 / 36

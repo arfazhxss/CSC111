@@ -1,0 +1,82 @@
+/*
+ *  Author:      D. Michael Miller and Hausi A. Muller
+ *  UVicID:      V00123456
+ *  Date:        Oct 15, 2013
+ *  Assignment:  A4 P2
+ *  File name:   A4P2.c
+ *  Description: Computes total and average height of some cylinders.
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdbool.h>
+
+#define RADIUS_MIN  (0.0)
+#define RADIUS_MAX  (10.0)
+#define HEIGHT_MIN  (0.0)
+#define HEIGHT_MAX  (10.0)
+
+
+float areaCirc(float r) {
+	// Computes area of a circle with radius r
+	return M_PI*r*r;
+} /*areaCirc*/
+
+float volCyl(float r,float h) {
+	// Computes volume of a cylinder with base radius r and height h
+	return h*areaCirc(r);
+} /*volCyl*/
+
+int main(void) {
+	float radius, height, totalHeight = 0.0;
+	int n = 0;
+	int itemsRead;
+	bool invalidInput = false;
+
+	setbuf(stdout, NULL); // set stdout for no buffering
+
+	while (true) {
+		// printf("Enter radius and height of a cylinder: ");
+		itemsRead = scanf("%f%f", &radius, &height);
+		// printf("No of items read: %d\n", itemsRead);
+		if (itemsRead == 2) {
+			n++;
+			totalHeight += height;
+			if (radius <= RADIUS_MIN) {
+				printf("Invalid radius: %.2f\n", radius);
+				invalidInput = true;
+			} else if (radius > RADIUS_MAX) {
+				printf("Invalid radius: %.2f\n", radius);
+				invalidInput = true;
+			} /*if*/
+			if (height <= HEIGHT_MIN) {
+				printf("Invalid height: %.2f\n", height);
+				invalidInput = true;
+			} else if (height > HEIGHT_MAX) {
+				printf("Invalid height: %.2f\n", height);
+				invalidInput = true;
+			} /*if*/
+			if (!invalidInput) {
+				printf("Cylinder%2d: radius = %5.2f  height = %5.2f  volume =  %5.2f\n",
+						n, radius, height, volCyl(radius, height));
+			} else {
+				invalidInput = false;
+			} /*if*/
+
+		} else {
+			break;
+		} /*if*/
+	} /*while*/
+
+	if (n > 0) {
+		printf("\nTotal height   =  %5.2f\n", totalHeight);
+		printf("Average height =  %5.2f\n", totalHeight/n);
+	} else {
+		printf("No cylinders specified\n");
+	} /*if*/
+
+	return EXIT_SUCCESS;
+} /*main*/
+
+
